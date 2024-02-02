@@ -1,0 +1,129 @@
+body
+{
+    background-color: #DADADA;  
+}
+
+h1
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul li a
+{
+   text-decoration: none;
+   font-size: 20px;
+   padding: 5px;
+   color: white;
+   font-family: sans-serif;
+
+}
+
+nav ul li a:hover
+{
+   border-bottom: 2px solid black;
+
+}
+
+nav ul
+{
+    padding: 20px;
+    width: 100%;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    
+
+}
+
+nav 
+{
+    width: 100%;
+    background-color:#5D7599;
+    padding: px;
+    border-radius: 10px;;
+}
+
+.loginSignUp
+{
+    background-color: #abb6c8;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 100px;
+    position: relative;
+    left: 850px;
+}
+
+
+.loginForm
+{
+    background-color: #C2C4B6;
+    width: 60%;
+    padding: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 240px;
+    top: 100px;;
+}
+.loginForm form .SubmitLogin
+{
+    width: 60%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    background-color: #656B83;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    margin-left: 140px;
+    opacity: 0.6;
+    transition: 0.3s;
+
+}
+.loginForm form .SubmitLogin:hover
+{
+    opacity: 1;
+    
+ 
+}
+.loginForm form input
+{
+    padding: 18px;
+    display: block;
+    width: 88%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginForm form input::placeholder
+{
+    font-size: 15px;
+    border: none;
+}
+
+.loginForm form label
+{
+   font-size: 20px;
+   font-family: sans-serif;
+   margin-left:24px;
+   padding: 1px
+}
+
+.loginForm h1
+{
+    text-align: center;
+    font-weight: 100;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.loginForm h3{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: sans-serif;
+}
