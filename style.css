@@ -1,6 +1,8 @@
 body
 {
-    background-color: #DADADA;  
+    background-color: white;  
+    overflow-x: hidden;
+   
 }
 
 h1
@@ -13,14 +15,14 @@ nav ul li a
    text-decoration: none;
    font-size: 20px;
    padding: 5px;
-   color: white;
+   color: black;
    font-family: sans-serif;
 
 }
 
 nav ul li a:hover
 {
-   border-bottom: 2px solid black;
+   border-bottom: 2px solid red;
 
 }
 
@@ -33,26 +35,22 @@ nav ul li
 {
     list-style: none;
     display: inline-block;
-    
-
 }
 
 nav 
 {
+    margin-top: -20px;
     width: 100%;
-    background-color:#5D7599;
-    padding: px;
-    border-radius: 10px;;
+    padding: 0px;
 }
 
 .loginSignUp
 {
-    background-color: #abb6c8;
+    border: 2px solid black;
     width: 200px;
     display: inline-block;
     text-align: center;
     padding: 10px;
-    border-radius: 100px;
     position: relative;
     left: 850px;
 }
@@ -60,34 +58,70 @@ nav
 
 .loginForm
 {
-    background-color: #C2C4B6;
+    background-color: #666;;
     width: 60%;
     padding: 50px;
-    border-radius: 50px;
+   
     position: relative;
     left: 240px;
-    top: 100px;;
+    top: 50px;
 }
 .loginForm form .SubmitLogin
 {
-    width: 60%;
+    width: 65%;
     padding: 14px;
-    border-radius: 10px;
     border: none;
-    background-color: #656B83;
     cursor: pointer;
-    color: white;
     font-size: 16px;
     margin-left: 140px;
-    opacity: 0.6;
-    transition: 0.3s;
+    
+   
 
 }
-.loginForm form .SubmitLogin:hover
+.loginForm form .SubmitLogin:hover {background-color: darkgray;}
+
+.Shortcut
 {
-    opacity: 1;
-    
- 
+    width: 100%;
+}
+.Shortcut h3
+{
+    font-family:sans-serif;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: 220px;
+    font-size: 1.6em;
+    text-align: center;
+
+}
+
+.popularTags
+{
+    background-color: #666;
+    height: 100px;
+    width: 125%;
+    margin-left:-8px;
+}
+
+.popularTags h2
+{
+    margin-left: 10px;
+}
+.Shortcut a
+{
+    border: 3px solid white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: 300px;
+    left: 650px;
+    width: 42%;
+    font-size: 22px;
+
 }
 .loginForm form input
 {
@@ -111,6 +145,7 @@ nav
    font-size: 20px;
    font-family: sans-serif;
    margin-left:24px;
+   color: white;
    padding: 1px
 }
 
@@ -120,10 +155,27 @@ nav
     font-weight: 100;
     font-size: 35px;
     font-family: sans-serif;
+    color: white;
 }
 .loginForm h3{
     text-align: center;
+    color: white;
     font-weight: lighter;
     font-size: 25px;
     font-family: sans-serif;
+}
+
+.intro img
+{
+    width: 112%;
+    margin-top: -108px;
+    margin-left:-80px ;
+}
+
+nav ul li a img
+{
+    width: 80px;
+    position: relative;
+    top: 30px;
+    
 }
