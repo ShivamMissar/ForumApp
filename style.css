@@ -80,21 +80,7 @@ nav
 }
 .loginForm form .SubmitLogin:hover {background-color: darkgray;}
 
-.Shortcut
-{
-    width: 100%;
-}
-.Shortcut h3
-{
-    font-family:sans-serif;
-    font-weight: 100;
-    color: white;
-    position: relative;
-    top: 220px;
-    font-size: 1.6em;
-    text-align: center;
 
-}
 
 .popularTags
 {
@@ -108,21 +94,7 @@ nav
 {
     margin-left: 10px;
 }
-.Shortcut a
-{
-    border: 3px solid white;
-    text-decoration: none;
-    text-align: center;
-    padding: 15px;
-    color: white;
-    font-family: sans-serif;
-    position: relative;
-    top: 300px;
-    left: 650px;
-    width: 42%;
-    font-size: 22px;
 
-}
 .loginForm form input
 {
     padding: 18px;
@@ -168,14 +140,101 @@ nav
 .intro img
 {
     width: 112%;
-    margin-top: -108px;
+    height: auto;
+    margin-top: -129px;
     margin-left:-80px ;
+    filter: brightness(80%);
+}
+
+.intro h3
+{
+    position: relative;
+    top: -800px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
 }
 
 nav ul li a img
 {
     width: 80px;
     position: relative;
-    top: 30px;
-    
+    top: 30px;   
 }
+
+.community
+{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 1150px;
+    
+    text-align: center;
+}
+.community h2
+{
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 34px;
+}
+.community img
+{
+   width: 10%;
+}
+.community a
+{
+    color: black;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    top: -68px;
+}
+
+
+
+.newsSlide-container
+{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+
+  .text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
